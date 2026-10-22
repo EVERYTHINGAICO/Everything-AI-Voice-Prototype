@@ -1,13 +1,13 @@
 # ERNESTO-CODE
 
-**El primer código de Everything AI.**
+**The first code of Everything AI.**
 
-ERNESTO-CODE marca el inicio de Everything AI y forma parte de la historia del proyecto.
+ERNESTO-CODE marks the beginning of Everything AI and holds a place in our history.
 
-## Nuestra historia
+## Our Story
 
-Este fue nuestro primer código y nos costó **13,000 dólares estadounidenses (USD)**. Conservamos este repositorio como un registro de nuestros comienzos y de la inversión que hicimos para dar ese primer paso.
+This was our first code, and it cost us **$13,000 USD**. We preserve this repository as a record of our beginnings and the investment we made to take that first step.
 
-## Estado del repositorio
+## Repository Status
 
-Actualmente, este repositorio contiene este README como registro histórico; el código original no está incluido en su contenido actual.
+This repository currently contains this README as a historical record. The original code is not included in its current contents.
