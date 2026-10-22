@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="status">Connection status will go here</p>
+    <p id="transcript">Deepgram transcript will go here</p>
+    <script>
+      // Historical archive: this demo is disabled and contains no credentials.
+      const archiveOnly = true;
+      if (!archiveOnly) {
+      navigator.mediaDevices.getUserMedia({ audio: true }).then(stream => {
+        const mediaRecorder = new MediaRecorder(stream)
+        const socket = new WebSocket('wss://api.deepgram.com/v1/listen', [ 'token', 'REMOVED_FROM_PUBLIC_ARCHIVE' ])
+
+        socket.onopen = () => {
+          console.log({ event: 'onopen' })
+          document.querySelector('#status').textContent = 'Connected'
+          mediaRecorder.addEventListener('dataavailable', event => {
+            if (event.data.size > 0 && socket.readyState == 1) {
+              socket.send(event.data)
+            }
+          })
+          mediaRecorder.start(250)
+        }
+
+        socket.onmessage = (message) => {
+          const received = JSON.parse(message.data)
+          const transcript = received.channel.alternatives[0].transcript
+          console.log(transcript);
+          if (transcript && received.is_final) {
+            document.querySelector('#transcript').textContent += transcript + ' '
+          }
+        }
+
+        socket.onclose = () => {
+          console.log({ event: 'onclose' })
+        }
+
+        socket.onerror = (error) => {
+          console.log({ event: 'onerror', error })
+        }
+      })
+          }
+    </script>
+  </body>
+</html>
