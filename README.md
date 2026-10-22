@@ -2,7 +2,11 @@
 
 **The first code project of Everything AI — a historical voice-assistant prototype.**
 
-This was our first code project, and it cost us **$13,000 USD**. We preserve it as a record of Everything AI's beginnings and the investment behind our first step.
+An early Everything AI prototype combining a Svelte interface, streamed speech recognition, language-model responses, and audio playback.
+
+## Our Beginnings
+
+This was our first code project, and it cost us **$13,000 USD**. We preserve it as a record of Everything AI’s beginnings and our first investment in building the company.
 
 ## The Original Delivery
 
@@ -15,6 +19,12 @@ The prototype combines:
 - Groq/LangChain conversation and wake/sleep detection.
 - Audio playback using a separately hosted text-to-speech endpoint.
 - A standalone Deepgram streaming experiment.
+
+## Original Prototype Artwork
+
+<img src="prototype/eai-app/static/images/sophia-full.png" alt="Original Sophia character artwork from the Everything AI voice prototype" width="280" />
+
+Original interface artwork, preserved from the historical delivery. This is not a screenshot of a currently operating service.
 
 ## Explore the Source
 
