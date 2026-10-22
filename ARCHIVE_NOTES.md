@@ -1,6 +1,6 @@
 # Archive Provenance and Publication Changes
 
-This source was supplied by the repository owner as the original Ernesto delivery. It was preserved in `EverythingAI-wakeUp.zip` in a private Everything AI repository and imported here as extracted files on 2026-10-22. The ZIP's original folder name and the assistant name **Sophia** are retained in the code; Ernesto identifies the historical delivery in this repository.
+This source was supplied by the repository owner as Everything AI’s original voice-assistant delivery. It was preserved in `EverythingAI-wakeUp.zip` in a private Everything AI repository and imported here as extracted files on 2026-10-22. The ZIP’s original folder name and the assistant name **Sophia** are retained in the code.
 
 ## Changes for Publication
 
