@@ -1,4 +1,4 @@
-# ERNESTO-CODE
+# Everything AI Voice Prototype
 
 **The first code project of Everything AI — a historical voice-assistant prototype.**
 
@@ -6,7 +6,7 @@ This was our first code project, and it cost us **$13,000 USD**. We preserve it 
 
 ## The Original Delivery
 
-The repository now includes a sanitized copy of the original delivery supplied by the owner, previously preserved as `EverythingAI-wakeUp.zip`. The code calls the assistant **Sophia**; this historical name is kept rather than rewriting the original identity.
+The repository now includes a sanitized copy of Everything AI’s original delivery supplied by the owner, previously preserved as `EverythingAI-wakeUp.zip`. The code calls the assistant **Sophia**; this historical name is kept rather than rewriting the original identity.
 
 The prototype combines:
 
